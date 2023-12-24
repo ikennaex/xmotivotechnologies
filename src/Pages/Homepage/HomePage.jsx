@@ -29,7 +29,7 @@ const HomePage = () => {
     /> */}
     
         <h1 className='landing-text'>
-        Let's build <br /> a master-<br />piece together
+        Let's build a masterpiece together
         </h1>
         <p className='landing-subtitle'>Get ready for the fastlane...</p>
         

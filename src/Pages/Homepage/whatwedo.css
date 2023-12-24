@@ -104,6 +104,16 @@
   margin-top: 30px;
 }
 
+@media only screen and (max-width: 830px) {
+  .graphics-div {
+    width: 100%;
+  }
+
+  .webdevelopment-div {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .services-main {
     gap: 20px;
@@ -124,6 +134,7 @@
   }
 
   .webdevelopment-div {
+    /* display: none; */
     width: 78%;
     height: fit-content;
   }
@@ -160,12 +171,3 @@
   }
 }
 
-@media only screen and (max-width: 830px) {
-  .graphics-div {
-    width: 100%;
-  }
-
-  .webdevelopment-div {
-    width: 100%;
-  }
-}

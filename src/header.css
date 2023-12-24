@@ -1,15 +1,16 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 40px;
-}
 
 .navbar-div {
     padding-top: 20px;
     background-color: rgb(255, 255, 255);
     height: 70px;
     margin-bottom: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
 }
 
 .contact-btn:hover {

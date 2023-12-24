@@ -1,0 +1,42 @@
+.about-div {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+}
+
+.about-text {
+    font-size: 80px;
+    color: #212337;
+    margin-bottom: 0;
+}
+
+.about-subtext {
+    margin-top: 0;
+    font-size: 30px;
+    color: #9ea0b1;
+}
+
+.real-about {
+    font-size: 25px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-div {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 70px;
+    }
+
+    .about-text {
+        font-size: 50px;
+    }
+
+    .about-subtext {
+        font-size: 25px;
+    }
+
+    .real-about {
+        font-size: 20px;
+    }
+}

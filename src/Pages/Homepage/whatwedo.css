@@ -1,0 +1,171 @@
+.whatwedo-div {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+}
+
+.whatwedo-text {
+  font-size: 80px;
+  color: #212337;
+  margin-bottom: 0;
+}
+
+.whatwedo-subtext {
+  margin-top: 0;
+  font-size: 30px;
+  color: #9ea0b1;
+}
+
+.webdevelopment-div {
+  width: 40%;
+  height: 700px;
+  background-color: #7035ec;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(135deg, #0000 18.75%, #7035ec 0 31.25%, #0000 0),
+    repeating-linear-gradient(45deg, #7035ec -6.25% 6.25%, #7436f5 0 18.75%);
+  background-size: 198px 198px;
+}
+
+.webdev-text {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffff;
+  line-height: 50px;
+}
+
+.webdev-img {
+  height: 350px;
+  margin-top: 20px;
+  border: 3px solid #ffff;
+  background-color: #ffa400;
+  padding: 20px;
+  border-radius: 20px 0;
+}
+
+.webdev-list {
+  font-size: 25px;
+  color: white;
+}
+
+.webdev-list::marker {
+  color: #ffa400;
+}
+
+.graphics-div {
+  width: 40%;
+  height: 700px;
+  background-color: #22ad80;
+  padding: 40px;
+  border-radius: 20px;
+  /* padding-bottom: px; */
+
+  /* background */
+  background: linear-gradient(135deg, #0000 18.75%, #1fb585 0 31.25%, #0000 0),
+    repeating-linear-gradient(45deg, #1fb585 -6.25% 6.25%, #22ad80 0 18.75%);
+  background-size: 154px 154px;
+}
+
+.services-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.graphics-text {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #ffff;
+}
+
+.graphics-list {
+  font-size: 25px;
+  color: #ffff;
+}
+
+.graphics-imgdiv {
+  display: flex;
+  justify-content: center;
+}
+
+.graphics-img {
+  height: 300px;
+  width: 300px;
+}
+
+.whatwedo-btn {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .services-main {
+    gap: 20px;
+  } 
+  
+  .whatwedo-div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 70px;
+  }
+
+  .whatwedo-text {
+    font-size: 50px;
+  }
+
+  .whatwedo-subtext {
+    font-size: 25px;
+  }
+
+  .webdevelopment-div {
+    width: 78%;
+    height: fit-content;
+  }
+
+  .webdev-text {
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .webdev-list {
+    font-size: 20px;
+  }
+
+  .webdev-img {
+    height: fit-content;
+  }
+
+  .graphics-text {
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .graphics-list {
+    font-size: 20px;
+  }
+
+  .graphics-img {
+    height: fit-content;
+  }
+
+  .graphics-div {
+    width: 78%;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .graphics-div {
+    width: 100%;
+  }
+
+  .webdevelopment-div {
+    width: 100%;
+  }
+}

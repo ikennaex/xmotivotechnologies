@@ -1,0 +1,60 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.navbar-div {
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    margin-bottom: 0px;
+}
+
+.contact-btn:hover {
+    transform: translateY(-0.33em);
+}
+
+.contact-btn {
+    color: #fff;
+    background-color: #22AD80;
+    border: 2.5px solid #111;
+
+}
+
+.logo {
+    height: 55px;
+}
+
+.menu-div {
+    margin: 0;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.menu-div p {
+    margin: 0;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-div {
+        display: none;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .contact-btn {
+        width: 100px;
+    }
+}
+
+

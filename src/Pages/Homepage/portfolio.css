@@ -1,0 +1,82 @@
+.portfolio-div {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+}
+
+.portfolio-text {
+    font-size: 80px;
+    color: #212337;
+    margin-bottom: 0;
+}
+
+.portfolio-subtext {
+    margin-top: 0;
+    font-size: 30px;
+    color: #9ea0b1;
+}
+
+.website-text {
+    color: #212337;
+}
+
+.website-sample img {
+    height: 300px;
+    cursor: pointer;
+}
+
+.website-sample {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Graphics Design Section  */
+.graphicsdesign-section {
+    margin-top: 70px;
+}
+
+.graphicsdesign-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.graphicsdesign-div img {
+    height: 400px;
+}
+
+.button-portfolio {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio-div {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 70px;
+    } 
+    
+    .portfolio-text {
+        font-size: 50px;
+    }
+
+    .portfolio-subtext {
+        font-size: 25px;
+    }
+
+    .website-sample {
+        padding: auto;
+    }
+
+    .website-sample img {
+        height: 180px;
+    }
+
+    .graphicsdesign-div img {
+        height: 330px;
+    }
+
+}

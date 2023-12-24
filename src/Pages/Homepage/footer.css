@@ -1,0 +1,88 @@
+.footer-section {
+    background-color: #7035EC;
+    margin-top: 50px;
+
+    background:
+    linear-gradient(135deg,#0000 18.75%,#7035ec 0 31.25%,#0000 0),
+    repeating-linear-gradient(45deg,#7035ec -6.25% 6.25%,#7436f5 0 18.75%);
+    background-size: 198px 198px;
+}
+
+.footer-divs {
+    padding: 30px 70px;
+}
+
+.stayconnected-input {
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 600px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.stayconnected-text {
+    color: #ffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.email-footer {
+    color: yellow;
+    font-size: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Footer  */
+.social-footer {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-footer div {
+    background-color: #ffff;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.footer-icon {
+    color: #7035EC;
+}
+
+.copyright-text {
+    color: #ffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* .stayconnected {
+    padding-top: 30px;
+} */
+
+
+@media only screen and (max-width: 600px) {
+    .subscribe-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .subscribe-form button {
+        width: 50%;
+    }
+
+    .stayconnected-input {
+        width: 100%;
+    }
+
+    .footer-divs {
+        padding: 30px 30px;
+    }
+}

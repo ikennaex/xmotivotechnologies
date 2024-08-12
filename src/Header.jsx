@@ -27,7 +27,7 @@ const Header = () => {
       
 
         <div>
-        <div className= {!open ? "navbar-mobile" : "navbar-mobile2"}>
+        <div className= {!open ? "navbar-mobile2" : "navbar-mobile"}>
           <div className= "navbarmobile-links">
             <a href="/">
               <p>Home</p>
@@ -52,7 +52,7 @@ const Header = () => {
             <a href="/">
               <p>Home</p>
             </a>
-            <a href="#whatwedo">
+            <a href="/#whatwedo" >
               <p>What we do</p>
             </a>
 

@@ -5,6 +5,8 @@ import About from './About'
 import Whatwedo from './Whatwedo'
 import Portfolio from './Portfolio'
 import Footer from './Footer'
+import { motivophone } from '../../imports';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -35,9 +37,13 @@ const HomePage = () => {
         
         </div>
 
-        <div>
-          <img className='home-img' src="https://pocketapp.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdisplay-phone.165cb877.png&w=1920&q=75" alt="" />
-        </div>
+        {/* <div>
+          <img className='home-img' src= {motivophone} alt="" />
+        </div> */}
+
+        <Link to = "/contact-us" >
+        <button className='book-btn'>Book Now</button>
+        </Link>
     </div>
 
     <About />

@@ -1,11 +1,20 @@
 import motivo from "./assets/motivologo.png";
 import laptop from "./assets/laptop-mockup.png";
 import graphics from "./assets/graphics.png";
+
+// websites
 import educationalweb from "./assets/websitesample/educationalweb.png";
 import cardtrade from "./assets/websitesample/cardtrade.png";
 import efdtarise from "./assets/websitesample/efdtarise.png";
 import gpt3 from "./assets/websitesample/gpt3.png";
 import cruzzy from "./assets/websitesample/cruzzy.png";
+import xpark from "./assets/websitesample/xpark.png";
+import depathway from "./assets/websitesample/depathway.png";
+import astrowave from "./assets/websitesample/astrowave.png";
+import crowncrest from "./assets/websitesample/crowncrest.png";
+
+//homepage
+import motivophone from "./assets/homepage/motivo-phone.png";
 
 // Graphics design
 import onekfollowers from "./assets/graphics-design/1kfollowers.jpg";
@@ -20,6 +29,10 @@ import Striveprogress from "./assets/graphics-design/Striveforprogressthisweek.j
 import vocationalstudybanner from "./assets/graphics-design/vocationalstudybanner.jpg";
 
 export {
+  xpark,
+  crowncrest,
+  depathway,
+  astrowave,
   motivo,
   laptop,
   graphics,
@@ -38,4 +51,5 @@ export {
   cruzzycover2,
   Striveprogress,
   vocationalstudybanner,
+  motivophone,
 };

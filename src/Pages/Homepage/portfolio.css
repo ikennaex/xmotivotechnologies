@@ -18,18 +18,29 @@
 
 .website-text {
     color: #212337;
+    font-weight: 500;
 }
 
 .website-sample img {
-    height: 300px;
+    height: 200px;
     cursor: pointer;
+}
+
+.website-sample img:hover {
+    animation: slide-up-down 1s ease-in-out;
 }
 
 .website-sample {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
+}
+
+.websitepreview-div {
+    background-color: #f1f1f1;
+    padding: 40px 40px 20px 40px;
+    border-radius: 12.5px;
 }
 
 /* Graphics Design Section  */
@@ -52,6 +63,11 @@
     margin-top: 30px;
 }
 
+.websitepreview-div p {
+    color: #6B3CE0;
+    font-weight: 500;
+}
+
 @media only screen and (max-width: 600px) {
     .portfolio-div {
         margin-left: 10px;
@@ -69,6 +85,7 @@
 
     .website-sample {
         padding: auto;
+        gap: 20px;
     }
 
     .website-sample img {
@@ -79,4 +96,65 @@
         height: 330px;
     }
 
+    .websitepreview-div {
+        background-color: #f1f1f1;
+        padding: 40px 10px 20px 10px;
+        border-radius: 12.5px;
+    }
+
 }
+
+@media only screen and (max-width: 375px) {
+    .portfolio-text {
+        font-size: 35px;
+    }
+
+    .portfolio-subtext {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .website-sample img {
+        height: 140px;
+    }
+
+    .graphicsdesign-div img {
+        height: 250px;
+    }
+
+}
+
+
+
+/* WEBKIT ANIMATION  */
+
+  @-webkit-keyframes slide-up-down {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-up-down {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }

@@ -18,7 +18,7 @@
 
 .webdevelopment-div {
   width: 40%;
-  height: 700px;
+  height: fit-content;
   background-color: #7035ec;
   padding: 40px;
   border-radius: 20px;
@@ -39,7 +39,7 @@
 }
 
 .webdev-img {
-  height: 350px;
+  /* height: 350px; */
   margin-top: 20px;
   border: 3px solid #ffff;
   background-color: #ffa400;
@@ -58,7 +58,7 @@
 
 .graphics-div {
   width: 40%;
-  height: 700px;
+  height: fit-content;
   background-color: #22ad80;
   padding: 40px;
   border-radius: 20px;
@@ -102,6 +102,16 @@
 
 .whatwedo-btn {
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 885px) {
+  .webdevelopment-div {
+    width: 70%;
+  }
+
+  .graphics-div {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 830px) {
@@ -168,6 +178,24 @@
   .graphics-div {
     width: 78%;
     height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .whatwedo-text {
+      font-size: 35px;
+  }
+
+  .whatwedo-subtext {
+      font-size: 18px;
+  }
+
+  .graphics-img {
+    display: none;
+  }
+
+  .webdev-img {
+    display: none;
   }
 }
 

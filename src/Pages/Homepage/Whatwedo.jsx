@@ -20,7 +20,7 @@ const Whatwedo = () => {
               <li>E-commerce</li>
               <li>Blog...Etc</li>
             </ul>
-            <img className='webdev-img' src={laptop} alt="" />
+            {/* <img className='webdev-img' src={laptop} alt="" /> */}
         </div>
 
         <div className='graphics-div'>
@@ -37,12 +37,12 @@ const Whatwedo = () => {
 
           <div className='graphics-imgdiv'>
 
-          <img className='graphics-img' src={graphics} alt="" />
+          {/* <img className='graphics-img' src={graphics} alt="" /> */}
           </div>
         </div>
     </div>
 
-    <button className='whatwedo-btn'>View Pricing</button>
+    <button className='whatwedo-btn'>Book Now</button>
     </div>
   )
 }

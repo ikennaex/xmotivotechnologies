@@ -20,25 +20,25 @@ const Footer = () => {
         </div>
 
         <div className="social-footer">
-          <div>
             <a target="_blank" href="https://web.facebook.com/motivodesigns">
+          <div>
 
             <FaFacebookF className="footer-icon" size={20} />
-            </a>
           </div>
+            </a>
 
-          <div>
             <a target="_blank" href="https://www.instagram.com/motivoinc/">
-            <FaInstagram className="footer-icon" size={20} />
-            </a>
-          </div>
-
           <div>
+            <FaInstagram className="footer-icon" size={20} />
+          </div>
+            </a>
+
             <a target="_blank" href="https://api.whatsapp.com/message/WSNOXU7DHD2TL1?autoload=1&app_absent=0">
+          <div>
 
             <FaWhatsapp className="footer-icon" size={20} />
-            </a>
           </div>
+            </a>
         </div>
       <p className="copyright-text">Copyright © {year} Motivo 💜</p>
       </div>

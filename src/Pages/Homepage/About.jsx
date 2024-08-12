@@ -22,7 +22,7 @@ const About = () => {
         clients.
       </p>
 
-      <button>View more</button>
+      {/* <button>View more</button> */}
     </div>
   );
 };

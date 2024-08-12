@@ -15,7 +15,11 @@ import {
   Striveprogress,
   vocationalstudybanner,
   cheapestflightsblue,
+  astrowave,
+  xpark,
 } from "../../imports";
+import { Link } from "react-router-dom";
+import { websites } from "../Portfolio/PortfolioPage";
 
 const Portfolio = () => {
   return (
@@ -28,31 +32,55 @@ const Portfolio = () => {
           <div className="website-section">
           <p className="portfolio-subtext website-text">Websites</p>
 
-          <div>
+          <div className="website-sample">
             <div className="website-sample">
-              <div>
-              <img src= {educationalweb} alt="" />
+
+              <div className="websitepreview-div">
+                <a target="_blank" href="https://gmatgretoeflnigeria.com/">
+
+              <img className="websitepreview-img" src= {educationalweb} alt="" />
               <p>Mark IV Educational Website</p>
+                </a>
               </div>
 
-              <div>
-              <img src= {cardtrade} alt="" />
-              <p>Card Trade Website</p>
+              <div className="websitepreview-div">
+                <a target="_blank" href="https://gmatgretoeflnigeria.com/">
+
+              <img className="websitepreview-img" src= {educationalweb} alt="" />
+              <p>Mark IV Educational Website</p>
+                </a>
               </div>
 
-              <div>
-              <img src= {efdtarise} alt="" />
-              <p>EFDT Arise Website</p>
+              <div className="websitepreview-div">
+                <a target="_blank" href="https://astrowavedxd.com.ng/">
+
+              <img className="websitepreview-img" src= {astrowave} alt="" />
+              <p>Clothing Brand Website</p>
+                </a>
               </div>
 
-              <div>
-              <img src= {gpt3} alt="" />
+              <div className="websitepreview-div">
+                <a target="_blank" href="https://xparklingtouch.com/">
+
+              <img className="websitepreview-img" src= {xpark} alt="" />
+              <p>Salon Website</p>
+                </a>
+              </div>
+
+              <div className="websitepreview-div">
+                <a target="_blank" href="https://gpt3-app.vercel.app/">
+
+              <img className="websitepreview-img" src= {gpt3} alt="" />
               <p>GPT-3 Website UI</p>
+                </a>
               </div>
 
-              <div>
-              <img src= {cruzzy} alt="" />
+              <div className="websitepreview-div">
+                <a target="_blank" href="https://cruzzyvibee.com/">
+
+              <img className="websitepreview-img" src= {cruzzy} alt="" />
               <p>Cruzzy Vibee website</p>
+                </a>
               </div>
             </div>
           </div>
@@ -74,7 +102,11 @@ const Portfolio = () => {
             </div>
           </div>
 
+          <Link to="/viewportfolio">
           <button className="button-portfolio">view more</button>
+          </Link>
+
+          
         </div>
       </div>
     </div>

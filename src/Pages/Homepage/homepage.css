@@ -13,38 +13,38 @@
 
   background: radial-gradient(
         87px at calc(100% + calc(87px * 0.866)) 50%,
-        #7436f5 99%,
+        #6B3CE0 99%,
         #0000 101%
       )
       0 calc(-5 * 87px / 2),
     radial-gradient(
         87px at calc(100% + calc(87px * 0.866)) 50%,
-        #7436f5 99%,
+        #6B3CE0 99%,
         #0000 101%
       )
       calc(-2 * calc(87px * 0.866)) calc(87px / 2),
     radial-gradient(87px at 100% 50%, #7035ec 99%, #0000 101%) 0 calc(-2 * 87px),
-    radial-gradient(87px, #7436f5 99%, #0000 101%) calc(87px * 0.866)
+    radial-gradient(87px, #6B3CE0 99%, #0000 101%) calc(87px * 0.866)
       calc(-5 * 87px / 2),
     radial-gradient(87px, #7035ec 99%, #0000 101%) calc(87px * 0.866)
       calc(5 * 87px / 2),
-    radial-gradient(87px at 100% 100%, #7436f5 99%, #0000 101%) 0
+    radial-gradient(87px at 100% 100%, #6B3CE0 99%, #0000 101%) 0
       calc(-1 * 87px),
-    radial-gradient(87px at 0% 50%, #7436f5 99%, #0000 101%) 0 calc(-4 * 87px),
+    radial-gradient(87px at 0% 50%, #6B3CE0 99%, #0000 101%) 0 calc(-4 * 87px),
     radial-gradient(87px, #7035ec 99%, #0000 101%) calc(-1 * calc(87px * 0.866))
       calc(-7 * 87px / 2),
-    radial-gradient(87px, #7436f5 99%, #0000 101%) calc(-1 * calc(87px * 0.866))
+    radial-gradient(87px, #6B3CE0 99%, #0000 101%) calc(-1 * calc(87px * 0.866))
       calc(-5 * 87px / 2),
     radial-gradient(87px at 100% 50%, #7035ec 99%, #0000 101%)
       calc(-2 * calc(87px * 0.866)) 87px,
-    radial-gradient(87px, #7436f5 99%, #0000 101%) calc(-1 * calc(87px * 0.866))
+    radial-gradient(87px, #6B3CE0 99%, #0000 101%) calc(-1 * calc(87px * 0.866))
       calc(87px / 2),
     radial-gradient(87px, #7035ec 99%, #0000 101%) calc(-1 * calc(87px * 0.866))
       calc(87px / -2),
-    radial-gradient(87px, #7436f5 99%, #0000 101%) 0 calc(-1 * 87px),
+    radial-gradient(87px, #6B3CE0 99%, #0000 101%) 0 calc(-1 * 87px),
     radial-gradient(87px, #7035ec 99%, #0000 101%) calc(87px * 0.866)
       calc(87px / -2),
-    radial-gradient(87px, #7436f5 99%, #0000 101%) calc(87px * 0.866)
+    radial-gradient(87px, #6B3CE0 99%, #0000 101%) calc(87px * 0.866)
       calc(87px / 2) #7035ec;
   background-size: calc(4 * calc(87px * 0.866)) calc(6 * 87px);
 }
@@ -55,7 +55,8 @@
 
 .homepage-text {
   margin-top: 0px;
-  width: 50%;
+  width: 85%;
+  text-align: center;
 }
 
 .landing-text {
@@ -75,6 +76,12 @@
   position: static;
 }
 
+.book-btn:hover {
+  /* webkit css gotten from portfolio */
+  animation: slide-up-down 1s ease-in-out;  
+
+}
+
 
 @media only screen and (max-width: 1280px) {
 
@@ -86,32 +93,42 @@
 
 @media only screen and (max-width: 992px) {
   .homepage-main {
-    height: 700px;
+    height: 750px;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .homepage-main {
+    padding: 0;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .homepage-main {
-    height: fit-content;
+    padding: 0;
+    height: 700px;
+  }
+
+  .landing-text  {
+    font-size: 80px;
   }
 
   .homepage-text {
     margin-top: 0px;
-    width: 90%;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .homepage-main {
-    padding: 10px 30px;
     flex-direction: row;
-    height: fit-content;
+    height: 550px;
   }
 
   .landing-text {
-    font-size: 50px;
+    font-size: 55px;
     color: #ffffff;
-    line-height: 50px;
+    line-height: 80px;
     margin-bottom: 0;
   }
 
@@ -137,8 +154,14 @@
   .homepage-text {
     width: 100%;
   }
-
+  
   .landing-text  {
-    font-size: 60px;
+    font-size: 50px;
+    line-height: 70px;
+    width: 100%;
+  }
+
+  .landing-subtitle { 
+    font-size: 18px;
   }
 }

@@ -4,8 +4,9 @@ import { graphics, laptop } from '../../imports'
 
 const Whatwedo = () => {
   return (
-    <div id='whatwedo' className='whatwedo-div'>
+    <div id='whatwedo' className='whatwedo-div '>
 
+      <div className='maxwidth-section'>
     <div className=''>
         <h2 className='whatwedo-text'>What we do</h2>
         <p className='whatwedo-subtext'>Take a peek into our Services</p>
@@ -43,6 +44,8 @@ const Whatwedo = () => {
     </div>
 
     <button className='whatwedo-btn'>Book Now</button>
+
+    </div>
     </div>
   )
 }

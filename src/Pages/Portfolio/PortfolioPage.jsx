@@ -17,6 +17,7 @@ const PortfolioPage = () => {
 
   return (
     <div className="portfolio-main">
+      <div className="maxwidth-section">
       <div className="porfoliotexts-main">
         <div className="portfoliotext-div">
           <h3 className="portfolio-text portfoliopage-text">Portfolio</h3>
@@ -50,6 +51,8 @@ const PortfolioPage = () => {
 
       <div className="website-section websection-portpage">
         {toggle ? <WebSection /> : <GraphicsSection />}
+      </div>
+
       </div>
     </div>
   );

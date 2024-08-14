@@ -82,6 +82,11 @@
 
 }
 
+.homepagebtn {
+  display: flex;
+  gap: 20px;
+}
+
 
 @media only screen and (max-width: 1280px) {
 
@@ -122,13 +127,13 @@
 @media only screen and (max-width: 600px) {
   .homepage-main {
     flex-direction: row;
-    height: 550px;
+    height: 500px;
   }
 
   .landing-text {
     font-size: 55px;
     color: #ffffff;
-    line-height: 80px;
+    line-height: 60px;
     margin-bottom: 0;
   }
 

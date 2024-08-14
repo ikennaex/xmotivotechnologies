@@ -3,7 +3,9 @@ import "../../Pages/Contact/contactpage.css"
 
 const ContactPage = () => {
   return (
-    <div className='contactform-section'>
+    <div className='contactform-section '>
+      <div className='maxwidth-section'>
+
       <h2 className='contactform-text'>Input your request in the form below</h2>
       <form action="">
         <div className='contact-forminputs'>
@@ -31,6 +33,7 @@ const ContactPage = () => {
 
         <button className='contactform-submit'>Submit Form</button>
       </form>
+      </div>
     </div>
   )
 }

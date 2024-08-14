@@ -9,7 +9,7 @@ const year = new Date().getFullYear()
 const Footer = () => {
   return (
     <div className="footer-section">
-      <div className="footer-divs">
+      <div className="footer-divs maxwidth-section">
         <div className="stayconnected">
           <p className="stayconnected-text">Stay Connected!</p>
           <p className="email-footer">themotivomedia@gmail.com</p>

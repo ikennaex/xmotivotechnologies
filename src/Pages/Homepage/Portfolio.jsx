@@ -24,7 +24,7 @@ import { websites } from "../Portfolio/PortfolioPage";
 const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio-div">
-      <div className="">
+      <div className="maxwidth-section">
         <div>
           <h3 className="portfolio-text">Portfolio</h3>
           <p className="portfolio-subtext">Delve Into Our Portfolio</p>

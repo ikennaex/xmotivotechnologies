@@ -70,6 +70,7 @@
 
 @media only screen and (max-width: 600px) {
     .subscribe-form {
+        align-items: center;
         flex-direction: column;
         gap: 20px;
     }

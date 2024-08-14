@@ -38,7 +38,7 @@
 }
 
 .websitepreview-div {
-    background-color: #f1f1f1;
+    border: 1px solid #7a7a7a;
     padding: 40px 40px 20px 40px;
     border-radius: 12.5px;
 }
@@ -97,7 +97,6 @@
     }
 
     .websitepreview-div {
-        background-color: #f1f1f1;
         padding: 40px 10px 20px 10px;
         border-radius: 12.5px;
     }

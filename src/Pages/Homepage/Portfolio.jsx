@@ -18,6 +18,7 @@ import {
   cheapestflightsblue,
   astrowave,
   xpark,
+  ordixy,
 } from "../../imports";
 import { Link } from "react-router-dom";
 import { websites } from "../Portfolio/PortfolioPage";
@@ -77,10 +78,10 @@ const Portfolio = () => {
               </div>
 
               <div className="websitepreview-div">
-                <a target="_blank" href="https://cruzzyvibee.com/">
+                <a target="_blank" href="https://ordixy.com/">
 
-              <img className="websitepreview-img" src= {cruzzy} alt="" />
-              <p>Cruzzy Vibee website</p>
+              <img className="websitepreview-img" src= {ordixy} alt="" />
+              <p>Photography website</p>
                 </a>
               </div>
             </div>

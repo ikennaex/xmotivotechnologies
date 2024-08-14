@@ -7,6 +7,7 @@ import {
   xpark,
   astrowave,
   crowncrest,
+  ordixy,
 } from "../../imports";
 
 export const websites = [
@@ -40,20 +41,27 @@ export const websites = [
 
   {
     id: 5,
+    link: "https://ordixy.com/",
+    imgUrl: ordixy,
+    info: "Photography Website",
+  },
+
+  {
+    id: 6,
     link: "https://gpt3-app.vercel.app/",
     imgUrl: gpt3,
     info: "GPT-3 Website UI",
   },
 
   {
-    id: 7,
+    id: 8,
     link: "https://cruzzyvibee.com/",
     imgUrl: cruzzy,
     info: "Artiste Website",
   },
 
   {
-    id: 8,
+    id: 9,
     link: "https://efdt-international.vercel.app/",
     imgUrl: efdtarise,
     info: "Exports Website",

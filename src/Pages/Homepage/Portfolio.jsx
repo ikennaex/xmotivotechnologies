@@ -87,6 +87,10 @@ const Portfolio = () => {
           </div>
           </div>
 
+          <Link to="/viewportfolio">
+          <button className="button-portfolio">View more</button>
+          </Link>
+          
           <div className="graphicsdesign-section">
             <p className="portfolio-subtext website-text">Graphics Design</p>
 
@@ -104,7 +108,7 @@ const Portfolio = () => {
           </div>
 
           <Link to="/viewportfolio">
-          <button className="button-portfolio">view more</button>
+          <button className="button-portfolio">View more</button>
           </Link>
 
           

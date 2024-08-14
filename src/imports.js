@@ -12,6 +12,7 @@ import xpark from "./assets/websitesample/xpark.png";
 import depathway from "./assets/websitesample/depathway.png";
 import astrowave from "./assets/websitesample/astrowave.png";
 import crowncrest from "./assets/websitesample/crowncrest.png";
+import ordixy from "./assets/websitesample/ordixystudios.png";
 
 //homepage
 import motivophone from "./assets/homepage/motivo-phone.png";
@@ -31,6 +32,7 @@ import vocationalstudybanner from "./assets/graphics-design/vocationalstudybanne
 export {
   xpark,
   crowncrest,
+  ordixy,
   depathway,
   astrowave,
   motivo,

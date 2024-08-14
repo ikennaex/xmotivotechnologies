@@ -4,6 +4,7 @@ import {
   educationalweb,
   cardtrade,
   efdtarise,
+  crowncrest,
   gpt3,
   cruzzy,
   canadastudyandwork,
@@ -36,10 +37,10 @@ const Portfolio = () => {
             <div className="website-sample">
 
               <div className="websitepreview-div">
-                <a target="_blank" href="https://gmatgretoeflnigeria.com/">
+                <a target="_blank" href="https://crown-crest-investments.com/">
 
-              <img className="websitepreview-img" src= {educationalweb} alt="" />
-              <p>Mark IV Educational Website</p>
+              <img className="websitepreview-img" src= {crowncrest} alt="" />
+              <p>Real Estate Website</p>
                 </a>
               </div>
 

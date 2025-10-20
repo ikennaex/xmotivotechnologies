@@ -5,7 +5,6 @@ import {
     canadastudyandwork,
     canadaworkvisa,
     cheapestFlights,
-    Creativityconnected,
     creativitywhite,
     cruzzycover2,
     Striveprogress,
@@ -21,7 +20,6 @@ const GraphicsSection = () => {
     <div className="graphicsdesign-div">
       <img src={canadastudyandwork} alt="" />
       <img src={canadaworkvisa} alt="" />
-      <img src={Creativityconnected} alt="" />
       <img src={cheapestFlights} alt="" />
       <img src={creativitywhite} alt="" />
       <img src={cruzzycover2} alt="" />

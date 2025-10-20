@@ -5,6 +5,7 @@ import Whatwedo from './Whatwedo'
 import Portfolio from './Portfolio'
 import Footer from './Footer'
 import { Link } from 'react-router-dom';
+import ContactPage from '../Contact/ContactPage'
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
         <h1 className='landing-text'>
         Let's build a masterpiece together
         </h1>
-        <p className='landing-subtitle'>Get ready for the fastlane...</p>
+        {/* <p className='landing-subtitle'>Get ready for the fastlane...</p> */}
         
         </div>
 
@@ -31,6 +32,7 @@ const HomePage = () => {
     <About />
     <Whatwedo />
     <Portfolio />
+    <ContactPage />
     <Footer />
 
     </>

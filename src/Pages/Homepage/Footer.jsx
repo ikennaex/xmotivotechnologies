@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-divs maxwidth-section">
         <div className="stayconnected">
           <p className="stayconnected-text">Stay Connected!</p>
-          <p className="email-footer">themotivomedia@gmail.com</p>
+          <p className="email-footer">info@xmotivotechnologies.com</p>
           <form className="subscribe-form" action="">
             <input className="stayconnected-input" type="text" />
             <button>Subscribe</button>
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
             </a>
         </div>
-      <p className="copyright-text">Copyright © {year} Motivo 💜</p>
+      <p className="copyright-text">Copyright © {year} xMotivo Technologies 💜</p>
       </div>
     </div>
   );

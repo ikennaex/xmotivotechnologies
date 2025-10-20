@@ -21,7 +21,6 @@ const Whatwedo = () => {
               <li>E-commerce</li>
               <li>Blog...Etc</li>
             </ul>
-            {/* <img className='webdev-img' src={laptop} alt="" /> */}
         </div>
 
         <div className='graphics-div'>

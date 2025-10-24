@@ -5,7 +5,6 @@ import WebSection from "./WebSection";
 
 const PortfolioPage = () => {
   const [toggle, setToggle] = useState(true);
-  const [clicked, setClicked] = useState(true);
 
   function hideWebsite() {
     setToggle(true);

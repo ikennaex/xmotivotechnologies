@@ -4,7 +4,6 @@ import {
   educationalweb,
   crowncrest,
   gpt3,
-  cruzzy,
   canadastudyandwork,
   canadaworkvisa,
   cheapestFlights,
@@ -13,12 +12,11 @@ import {
   Striveprogress,
   vocationalstudybanner,
   cheapestflightsblue,
-  astrowave,
-  xpark,
   ordixy,
+  lumigrid,
+  muuvylity,
 } from "../../imports";
 import { Link } from "react-router-dom";
-import { websites } from "../Portfolio/PortfolioPage";
 
 const Portfolio = () => {
   return (
@@ -59,20 +57,20 @@ const Portfolio = () => {
                 </div>
 
                 <div className="websitepreview-div">
-                  <a target="_blank" href="https://astrowavedxd.com.ng/">
+                  <a target="_blank" href="https://muuvylity.vercel.app/">
                     <img
                       className="websitepreview-img"
-                      src={astrowave}
+                      src={muuvylity}
                       alt=""
                     />
-                    <p>Clothing Brand Website</p>
+                    <p>Logistics Website</p>
                   </a>
                 </div>
 
                 <div className="websitepreview-div">
-                  <a target="_blank" href="https://xparklingtouch.com/">
-                    <img className="websitepreview-img" src={xpark} alt="" />
-                    <p>Salon Website</p>
+                  <a target="_blank" href="https://lumigrid.com.ng/">
+                    <img className="websitepreview-img" src={lumigrid} alt="" />
+                    <p>Solar Energy Website</p>
                   </a>
                 </div>
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import "../Homepage/whatwedo.css"
-import { graphics, laptop } from '../../imports'
 
 const Whatwedo = () => {
   return (

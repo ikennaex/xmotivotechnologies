@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about-div">
       <div className="maxwidth-section">
-        <h2 className="about-text">We are Motivo Technologies</h2>
+        <h2 className="about-text">We are xMotivo Technologies</h2>
         <p className="about-subtext">Get to know us</p>
         <p className="real-about">
           Motivo Technologies, stands as a dynamic and forward-thinking Software

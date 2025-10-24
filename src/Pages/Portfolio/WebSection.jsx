@@ -7,9 +7,9 @@ const WebSection = () => {
         <p className="portfolio-subtext website-text">Websites</p>
     <div className="website-sample">
       {websites.map((website) => (
-        <div key={website.id}>
+        <div className=' flex items-center justify-center' key={website.id}>
           <a target="_blank" href={website.link}>
-            <img src={website.imgUrl} alt="" />
+            <img className='' src={website.imgUrl} alt="" />
             <p>{website.info}</p>
           </a>
         </div>

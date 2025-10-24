@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div className="social-footer">
-            <a target="_blank" href="https://web.facebook.com/motivodesigns">
+            <a target="_blank" href="https://web.facebook.com/xmotivoinc/">
           <div>
 
             <FaFacebookF className="footer-icon" size={20} />
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
             </a>
 
-            <a target="_blank" href="https://api.whatsapp.com/message/WSNOXU7DHD2TL1?autoload=1&app_absent=0">
+            <a target="_blank" href="https://wa.me/2347042706659">
           <div>
 
             <FaWhatsapp className="footer-icon" size={20} />

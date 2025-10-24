@@ -3,16 +3,12 @@ import laptop from "./assets/laptop-mockup.png";
 
 // websites
 import educationalweb from "./assets/websitesample/educationalweb.png";
-import cardtrade from "./assets/websitesample/cardtrade.png";
 import efdtarise from "./assets/websitesample/efdtarise.png";
 import gpt3 from "./assets/websitesample/gpt3.png";
 import cruzzy from "./assets/websitesample/cruzzy.png";
-import xpark from "./assets/websitesample/xpark.png";
 import depathway from "./assets/websitesample/depathway.png";
-import astrowave from "./assets/websitesample/astrowave.png";
 import crowncrest from "./assets/websitesample/crowncrest.png";
 import ordixy from "./assets/websitesample/ordixystudios.png";
-import arkyves from "./assets/websitesample/arkyves.png";
 import oakvalley from "./assets/websitesample/oakvalley.png";
 import genesys from "./assets/websitesample/genesys.png";
 import lumigrid from "./assets/websitesample/lumigrid.png";
@@ -22,8 +18,9 @@ import semeng from "./assets/websitesample/semeng.png";
 import shepaverse from "./assets/websitesample/shepaverse.png";
 import efglobal from "./assets/websitesample/efglobal.png";
 import plungesmile from "./assets/websitesample/plungesmile.png";
-
-
+import muuvylity from "./assets/websitesample/muuvylity.png";
+import arkland from "./assets/websitesample/arkland.png";
+import omphoenix from "./assets/websitesample/omphoenix.png";
 
 // Graphics design
 import canadastudyandwork from "./assets/graphics-design/Canadastudyandworkpackage.jpg";
@@ -36,12 +33,9 @@ import Striveprogress from "./assets/graphics-design/Striveforprogressthisweek.j
 import vocationalstudybanner from "./assets/graphics-design/vocationalstudybanner.jpg";
 
 export {
-  arkyves,
-  xpark,
   crowncrest,
   ordixy,
   depathway,
-  astrowave,
   motivo,
   laptop,
   educationalweb,
@@ -54,14 +48,13 @@ export {
   shepaverse,
   efglobal,
   plungesmile,
-
-
-
-
-  cardtrade,
   efdtarise,
   gpt3,
   cruzzy,
+  muuvylity,
+  arkland,
+  omphoenix,
+
   canadastudyandwork,
   canadaworkvisa,
   cheapestFlights,

@@ -21,6 +21,22 @@ import plungesmile from "./assets/websitesample/plungesmile.png";
 import muuvylity from "./assets/websitesample/muuvylity.png";
 import arkland from "./assets/websitesample/arkland.png";
 import omphoenix from "./assets/websitesample/omphoenix.png";
+import thaifchi from "./assets/websitesample/thaifchi.png";
+import boomanage from "./assets/websitesample/boomanage.png";
+import justlink from "./assets/websitesample/justlink.png";
+import wilham from "./assets/websitesample/wilham.png";
+import sherpatourism from "./assets/websitesample/sherpatourism.png";
+import imgnigeria from "./assets/websitesample/imgnigeria.png";
+import gropropak from "./assets/websitesample/gropropak.png";
+import coralworker from "./assets/websitesample/coralworker.png";
+import aktv from "./assets/websitesample/aktv.png";
+
+
+
+// mobile apps 
+import belachow from "./assets/mobileapps/belachowapp.PNG";
+import belachowrider from "./assets/mobileapps/belachowrider.PNG";
+
 
 // Graphics design
 import canadastudyandwork from "./assets/graphics-design/Canadastudyandworkpackage.jpg";
@@ -54,6 +70,23 @@ export {
   muuvylity,
   arkland,
   omphoenix,
+  boomanage,
+  thaifchi,
+  gropropak,
+  imgnigeria,
+  coralworker,
+  sherpatourism,
+  wilham,
+  justlink,
+  aktv,
+
+
+
+  // mobile apps
+
+  belachowrider,
+  belachow,
+
 
   canadastudyandwork,
   canadaworkvisa,

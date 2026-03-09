@@ -17,11 +17,65 @@ import {
   muuvylity,
   arkland,
   omphoenix,
+    boomanage,
+    thaifchi,
+    gropropak,
+    imgnigeria,
+    coralworker,
+    sherpatourism,
+    wilham,
+    justlink,
+    aktv
 } from "../../imports";
 
 export const websites = [
   {
-    link: "https://muuvylity.vercel.app/",
+    link: "https://coralworker.com/",
+    imgUrl: coralworker,
+    info: "Domestic Helper Website",
+  },
+  {
+    link: "https://www.justlinklogistics.com.ng/logistics",
+    imgUrl: justlink,
+    info: "Logistics Website",
+  },
+  {
+    link: "https://aktvnation.com/",
+    imgUrl: aktv,
+    info: "Entertainment Website",
+  },
+  {
+    link: "https://boomanageproperties.net/",
+    imgUrl: boomanage,
+    info: "Real Estate Website",
+  },
+  {
+    link: "https://www.thaifchikiezman.com/",
+    imgUrl: thaifchi,
+    info: "Logistics and Haulage Website",
+  },
+  {
+    link: "https://gropropakafrica.com/",
+    imgUrl: gropropak,
+    info: "Agriculture Website",
+  },
+  {
+    link: "https://www.imagenigeriaevent.ng/",
+    imgUrl: imgnigeria,
+    info: "Events Website",
+  },
+  {
+    link: "https://thesherpaverse.com/tourism",
+    imgUrl: sherpatourism,
+    info: "Tourism Website",
+  },
+  {
+    link: "https://www.wilhamco.ng/",
+    imgUrl: wilham,
+    info: "Consulting Website",
+  },
+  {
+    link: "https://www.muuvylitylogistics.com/",
     imgUrl: muuvylity,
     info: "Logistics Website",
   },
@@ -75,21 +129,9 @@ export const websites = [
   },
 
   {
-    link: "https://depathway360.org/",
-    imgUrl: depathway,
-    info: "NGO Website",
-  },
-
-  {
     link: "https://lumigrid.com.ng/",
     imgUrl: lumigrid,
     info: "Energy Solutions Website",
-  },
-  
-  {
-    link: "https://neighborly.ng/",
-    imgUrl: neighborly,
-    info: "Neighborhood shopping Platform",
   },
   
   {
@@ -102,12 +144,6 @@ export const websites = [
     link: "https://thesherpaverse.com/",
     imgUrl: shepaverse,
     info: "Concierge services Website",
-  },
-  
-  {
-    link: "https://www.oakandtrustinsurance.com/",
-    imgUrl: oakvalley,
-    info: "Insurance Website",
   },
 
   {
